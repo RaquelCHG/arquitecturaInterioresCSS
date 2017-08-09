@@ -1,0 +1,120 @@
+<!-- Pagina con los proyectos que se están desarrollando actualmente-->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>     <!--Cabecera con la información de idioma, autor, descripción, palabras claves de búsqueda y titulo-->
+		<title>Contactar</title>
+		<meta name ="Content-Language" content="es-ES">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="author" content="Raquel">
+        <meta name ="keywords" content="arquitectura,interiorismo,reformas,obra">
+        <meta name="description" content="Reformas e interiorismo en Madrid; Calidad y precio">
+        <link rel="stylesheet" type="text/css" href="css/estilosprincipal.css"/>
+	</head>
+	<body>
+        <header id="imgprincipal">        <!--  Imagen de portada-->
+            <img src="Imagenes/Imagenportada.jpg" alt="en proceso de mantenimiento"/>
+        </header>
+        <nav id="divmenu">   <!--  Índice de la pagina-->
+            <a class="formatText centrado" href="Index.html">Inicio</a>
+            <a class="formatText centrado" href="Finalizados.html">Proyectos</a>
+            <a class="formatText centrado" href="Actuales.html">Proyectos actuales</a>
+            <a class="formatText centrado" href="Prensa.html">Prensa</a>
+            <a class="formatText centrado" href="Contactar.html">Contacto</a>
+        </nav>
+		<article id="bodycontact">
+			<section>
+				<h4 class="formatText textbig izquierda negrita">Nuestros datos de contacto</h4>
+				<p class="formatText textsmall">Estaremos encantados de colaborar con usted en la realizacion de sus proyectos. No dude en ponerse en contacto con nosotros:</p>
+				<div class="saltolinea">
+					<p class="formatText textsmall">Kupo Studio</p>
+					<p class="formatText textsmall">Arquitectura de interiores</p>
+				</div>	
+				<div class="saltolinea">
+					<p class="formatText textsmall">Calle Dulcinea, 17.</p>
+					<p class="formatText textsmall">28050, Madrid.</p>
+				</div>	
+				<p class="formatText textsmall">911234567 / 666555444.</p>
+				<p class="formatText textsmall linkcolor"><a href=“mailto:email”>kupostudio@gmail.es</a></p>
+			</section>
+			
+			<section id="formulario">
+				<form method="get" name="cita" target="tienda@tienda.net">
+					<div>
+						<h4 class="formatText textbig izquierda negrita">Formulario de contacto</h4>
+					</div>
+					<div id="formtext">
+						<label for="nombre" class="formatText izquierda textsmall textform">Nombre:</label>
+						<label for="apellidos" class="formatText izquierda textsmall textform">Apellidos:</label>
+						<label for="telefono" class="formatText izquierda textsmall textform">Teléfono:</label>
+						<label for="mail" class="formatText izquierda textsmall textform">Correo electrónico:</label>
+						<label for="tipoproyecto" class="formatText izquierda textsmall textform">Tipo de proyecto a realizar:</label>
+						<label class="formatText izquierda textsmall textformradio">Usuario:</label>
+						<label for="descripcion" class="formatText izquierda textsmall textform" id="textareaform">Descripción del proyecto:</label>
+						<label for="imagen" class="formatText izquierda textsmall textform">Adjuntar imagenes:</label>
+						<label class="formatText izquierda textsmall textform" for="pedircita">Petición cita:</label>
+					</div>
+					<div id="forminput">
+						<input id="nombre" type="text" name="nombre" required="required" maxlength="30" size="20"/>
+						<input id="apellidos" type="text" name="usuario" required="required" maxlength="60" size="30"/>
+						<input id="telefono" type="text" name="telefono" required="required" maxlength="30" size="30" placeholder="Preferible movil"/>
+						<input id="mail" type="text" name="mail" maxlength="40" size="30"/>
+						<select id="tipoproyecto">
+							<option value="restaurante">Restaurante</option>
+							<option value="hotel">Hotel</option>
+							<option value="oficina">Oficina</option>
+							<option value="comercio">Comercio</option>
+							<option value="productos">Producto</option>
+							<option value="vivienda" selected="selected">Vivienda</option>
+						</select>
+						<div class="positionradio">
+							<input class="radio" type="radio" name="tcliente" value="particular"/>
+						</div>
+						<div class="textradio">
+							<label class="formatText textsmall" id="particular">Particular.</label>
+						</div>
+						<div class="positionradio">
+							<input class="radio" type="radio" name="tcliente" value="empresa"/>
+						</div>
+						<div class="textradio">
+							<label class="formatText textsmall" id="empresa">Empresa.</label>
+						</div>
+						<div class="positionradio">
+							<input class="radio" type="radio" name="tcliente" value="representante"/>
+							</div>
+						<div class="textradio">	
+							<label class="formatText textsmall" id="representante">Representante legal.</label>
+						</div>
+						<div>
+							<textarea id="descripcion" cols="40" rows="6"></textarea>
+						</div>
+						<input id="imagen" type="file" accept="imagen/jpg"/>
+						<input id="pedircita" type="date"/>
+
+						<input class="boton" type="submit" value="Envio"/>
+						<input class="boton" type="reset" value="Reiniciar"/>
+					</div>
+				</form>
+			</section> 
+		</article>
+ 		<footer id="pie">      <!-- Datos de contacto físico y redes sociales-->  
+            <p class="formatText centrado">Kupo Studio</p>
+            <p class="formatText centrado">Arquitectura de interiores</p>
+            <p class="formatText centrado">Calle Dulcinea, 17.</p>
+            <p class="formatText centrado">28050, Madrid.</p>
+            <p class="linkcolor centrado"><a href="AvisolegalyPoliticacookies.html">Aviso Legal</a>  |  <a href="AvisolegalyPoliticacookies.html#cookies">Politica de cookies</a></p>
+            <br/>
+            <img src="Imagenes/Redes.png" alt="en proceso de mantenimiento" height="40" usemap="#redes"/>
+            <map name="redes">      <!--Mapeado de una imagen utilizado para enlazar con las redes sociales del estudio -->
+                <area shape="circle" coords="19,20,20" title="Facebook" href="https://www.facebook.com/" alt="en proceso de mantenimiento"/>
+                <area shape="circle" coords="65,20,20" title="Twitter" href="https://twitter.com" alt="en proceso de mantenimiento"/>
+                <area shape="circle" coords="110,20,20" title="Instagram" href="https://www.instagram.com/" alt="en proceso de mantenimiento"/>
+                <area shape="circle" coords="155,20,20" title="Pinterest" href="https://es.pinterest.com/" alt="en proceso de mantenimiento"/>
+                <area shape="circle" coords="200,20,20" title="Google+" href="https://plus.google.com/" alt="en proceso de mantenimiento"/>                    
+                <area shape="circle" coords="245,20,20" title="Blogger" href="https://www.blogger.com/" alt="en proceso de mantenimiento"/>
+            </map>
+        </footer>
+    </body>
+</html>

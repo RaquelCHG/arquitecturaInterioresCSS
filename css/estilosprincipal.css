@@ -1,0 +1,618 @@
+body,html{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(51,51,51);
+}
+
+
+#imgprincipal{ /*Atributos del div de la imagen superior*/
+	width: 100%;
+	height: 20%;
+	position: fixed;
+	top: 0%;
+	z-index: 4;
+}
+
+
+#imgprincipal img{ /*Atributos de la imagen superior*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 4;
+}
+
+
+#divmenu{ /*Atributos del div del menu superior*/
+	width: 100%;
+	height: 5%;
+	position: fixed;
+	top: 20%;
+	z-index: 3;
+	background-color: rgb(51,51,51);
+	padding-bottom: 1%;
+	overflow: hidden;
+}
+
+
+#body{ /*para el div del cuerpo de la pagina*/
+	width: 97.5%;
+	position: relative;
+	top: 26%;
+	z-index: 2;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+
+.bodyproyectos{ /*para el div del cuerpo de la pagina, de finalizados y proyectos*/
+	width: 100%;
+	height: 54%;
+	position: relative;
+	top: 26%;
+	z-index: 2;
+}
+
+
+#bodyobra{ /*para el div del cuerpo de la pagina de obras*/
+	width: 100%;
+	height: 65%;
+	position: relative;
+	top: 26%;
+	z-index: 2;
+	overflow: auto;
+}
+
+
+#bodycontact{	/*para el div del cuerpo de la pagina de contactar*/
+	width: 97.2%;
+	position: relative;
+	top: 26%;
+	z-index: 2;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 145%; 
+}
+
+
+#bodyprensa{	/*para el div del cuerpo de la pagina de prensa*/
+	width: 100%;
+	height: 370%;
+	position: relative;
+	top: 26%;
+	z-index: 2;
+
+}
+
+
+#pie{	/*para el div del pie de pagina*/
+	width: 100%;
+	position: relative;
+	top: 26%;
+	z-index: 1;
+	padding-top: 1%;
+}
+
+
+#pie img{
+	width: 24%;
+	height: 24%;
+	position: absolute;
+	left: 38%;
+}
+
+
+
+
+
+/*Los atributos para todos los textos de las paginas*/
+
+.formatText { /*formato basico del texto del cuerpo*/
+	color: rgb(253,253,253);
+	font-family: KievitWeb;
+	line-height: 21px;
+}
+
+
+.texttitlebig{ /*para el texto titulo grande del cuerpo*/
+	font-size: 32px;
+}
+
+
+.texttitlesmall{ /*para titulos medianos*/
+	font-size: 19px;
+}
+
+
+.textbig{
+	font-size: 18px;
+}
+
+
+.textsmall{ /*para el texto tamaño normal del cuerpo*/
+	text-align: justify;
+	font-size: 16px;
+}
+
+
+.textproyectos{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.tituloprensa{
+	width: 100%;
+	height: 2%;
+	position: absolute;
+}
+
+
+/*Remarca el texto en negrita*/
+.negrita{
+	font-weight: bold;
+}
+
+
+/*Subrayado el texto*/
+.subrayado{
+	text-decoration: underline; 
+}
+
+
+.centrado{
+	text-align: center;
+}
+
+
+.izquierda{
+	text-align: left;
+}
+
+
+.derecha{
+	text-align: right;
+}
+
+
+.saltolinea{
+	line-height: 6px;
+	padding-top: 1px;
+	padding-bottom: 1px
+}
+
+
+/*Modifica el color de los links*/
+.linkcolor a:link{	/*enlaces sin visitar*/
+	color: #ff8000;
+}
+
+.linkcolor a:visited{	/*enlaces visitados*/
+	color: #E33213;
+}
+
+
+a:link{		/*Los links no estan subrayados*/
+	text-decoration:none;
+}
+
+
+#pie p,#pie a{
+	font-size: 13px;
+	line-height: 10px;
+}
+
+
+#divmenu a{
+	font-size: 20px;
+	padding: 13px;
+	display: inline-block;
+}
+
+
+.datosobra p{
+	line-height: 15px;
+}
+
+
+#menuproyectos a{
+	font-size: 18px;
+	padding: 13px;
+}
+
+
+
+
+
+/*Atributos de las paginas de proyectos*/
+
+#menuproyectos{ /*para el div del cuerpo de la pagina*/
+	width: 12%;
+	height: 100%;
+	position: fixed;
+	left: 88%;
+	line-height: 45px;
+}
+
+
+.proyecto1{
+	width: 44%;
+	height: 80%;
+	position: absolute;
+}
+
+
+.proyecto2{
+	width: 44%;
+	height: 80%;
+	position: absolute;
+	left: 44%;
+}
+
+
+.proyecto1 img{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+
+.proyecto2 img{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+
+.proyectotexto1{
+	width: 44%;
+	height: 20%;
+	position: absolute;
+	top: 80%;
+}
+
+
+.proyectotexto2{
+	width: 44%;
+	height: 20%;
+	position: absolute;
+	left: 44%;
+	top: 80%;
+}
+
+
+
+
+
+/*Atributos de las paginas de obras*/
+
+.datosobra{
+	width: 15%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.datosobra div{
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	
+}
+
+.textobra{
+	width: 55%;
+	height: 100%;
+	position: absolute;
+	left: 15%;
+	padding: 0 5% 0 5%;
+}
+
+.fotosobra{
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	left: 80%;
+}
+
+
+#obradiv1{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+
+}
+
+#obradiv2{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	top: 50%;
+}
+
+#obradiv1 img{
+	width: 90%;
+	height: auto;
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	left: 5%;
+}
+
+#obradiv2 img{
+	width: 90%;
+	height: auto;
+	position: absolute;	
+	top: 5%;
+	right: 5%;
+	left:5%;
+}
+
+
+
+
+
+/*Atributos de las paginas de contacto*/
+
+#formulario{
+	width: 50%;
+	position: relative;
+	height: 63.7%;
+	padding-top: 3%;
+}
+
+#formtext{
+	width: 35%;
+	position: absolute;
+}
+
+
+#forminput{
+	width: 65%;
+	position: absolute;
+	left: 35%;
+}
+
+.textform{
+	padding-top: 7%;
+	padding-bottom: 7%; 
+}
+
+.textformradio{
+	padding-top: 3%;
+	padding-bottom: 70%; 
+
+}
+
+#textareaform{
+	padding-top: 3%;
+	padding-bottom: 35%; 
+}
+
+.positionradio{
+	width: 5%;
+	display: inline-block;
+	padding-top: 9%;
+}
+
+.textradio{
+	width: 90%;
+	display: inline-block;
+}
+
+.select{
+	padding-top: 5%;
+}
+
+
+input, select{
+    width: 95%;
+    height: 16px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    vertical-align: bottom;
+    position: relative;
+    border-radius: 7px;
+}
+
+
+label{
+	display: block;
+}
+
+
+textarea{
+	width: 100%;
+	margin-top: 8%;
+    margin-bottom: 4%;
+    border-radius: 7px;
+}
+
+
+select{
+	margin-top: 4.5%;
+    margin-bottom: 5%;
+}
+
+
+.radio{
+	margin-top: 2%;
+    margin-bottom: 3%;
+    position: relative;
+    right: 30%;
+}
+
+
+/*Atributos para los input button*/
+
+.boton {
+  	background: #d9d9d9;
+  	border-radius: 11px;
+  	font-family: KievitWeb;
+  	color: #333333;
+  	font-size: 11px;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
+  	width: 34%;
+	height: 15%;
+	display: inline-block;
+	margin-top: 10%;
+	margin-right: 6%;
+	margin-left: 6%;
+}
+
+
+.boton:hover {
+  background: #c2c2c2;
+  background-image: linear-gradient(to bottom, #c2c2c2, #a8a8a8);
+  text-decoration: none;
+}
+
+
+
+
+
+/*Atributos de la pagina de prensa*/
+
+#revista{
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	top: 2%;
+}
+
+
+#radio{
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	top: 34%;
+}
+
+
+#tv{
+	width: 100%;
+	height: 54%;
+	position: absolute;
+	top: 46%;
+
+}
+
+
+.barra{
+	width: 85%;
+	height: 5px;
+	background-color: lightgrey;
+	position: absolute;
+	left:15%;
+	top: 70%;
+}
+
+
+#top32{
+	top: 32%;
+
+}
+
+
+#top44{
+	top: 44%;
+}
+
+
+#revistaprensa1{
+	width: 99%;
+	height: 24%;
+	position: absolute;
+	top: 15%;
+	padding-left: 1%;
+	overflow: hidden;
+}
+
+  
+#revistaprensa2{
+	width: 99%;
+	height: 24%;
+	position: absolute;
+	top: 55%;
+	padding-left: 1%;
+	overflow: hidden;
+	
+}    
+
+
+#revistaprensa1 img{
+	height: 100%;
+	position: inherit;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+  
+
+#revistaprensa2 img{
+	height: 100%;
+	position: inherit;
+	padding-left: 2%;
+	padding-right: 2%;
+	display: inline-block;
+
+}
+
+
+.imgprensa{
+	width: 35%;
+}
+
+
+#entrevista1{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+
+}
+
+
+#entrevista2{
+	position: absolute;
+	top: 35%;
+	left: 40%;
+}
+
+
+#entrevista3{
+	position: absolute;
+	top: 35%;
+	left: 70%;
+}
+
+			
+#video1{
+	width: 80%;
+	position: absolute;
+	top: 10%;
+	left:10%;
+}
+
+
+#video2{
+	width: 80%;
+	position: absolute;
+	top: 58%;
+	left:10%;
+}
+
+
+#video1 video{
+	width: 100%;
+}
+
+
+#video2 video{
+	width: 100%;
+}
